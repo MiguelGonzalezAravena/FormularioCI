@@ -12,6 +12,10 @@ Proyecto para enseñar el funcionamiento de un formulario en CodeIgniter. Desarr
 1. Iniciar el servicio de WAMP Server.
 2. Abrir consola y cambiar a la carpeta `www` de WAMP Server: `cd C:/wamp/www`
 3. Descargar repositorio desde GitHub: `git clone https://github.com/MiguelGonzalezAravena/FormularioCI.git`
-4. Instalar dependencias: `bower install`
-5. Ingresar mediante el navegador al siguiente enlace:
-[Clic aquí](http://127.0.0.1/FormularioPHP)
+4. Cambiar a la carpeta del proyecto: `cd FormularioCI/`
+5. Instalar dependencias: `bower install`
+6. Ingresar mediante el navegador al siguiente enlace:
+[Clic aquí](http://127.0.0.1/FormularioCI)
+
+# Nota
+En caso de que se clone el repositorio en otro directorio (distinto a `FormularioCI`), se debe modificar el enlace en el archivo que se encuentra en `application/config/config.php`.
